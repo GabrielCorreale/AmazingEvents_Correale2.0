@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/styles/style.css">
+    <link rel="shortcut icon" href="./assets/img/favicon.ico" type="image/x-icon">
+    <title>Amazing Events - Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <body>
+        <header>
+            <nav class="bg-dark-subtle navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid gap-2">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#">
+                            <img src="./assets/img/Logo Amazing Events.png" alt="Amazing Events Logo" wv="100"
+                                height="30">
+                        </a>
+                    </div>
+                    <div>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </div>
+                    <div class="collapse navbar-collapse container-fluid" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 gap-2">
+                            <li class="nav-item">
+                                <a class="btn btn-outline-secondary container-fluid" href="./index.html"
+                                    role="button">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="btn btn-outline-secondary container-fluid" href="./upcoming_Events.html"
+                                    role="button">Upcoming
+                                    Events</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="btn btn-secondary container-fluid" href="#" role="button">Past
+                                    Events</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="btn btn-outline-secondary container-fluid" href="./contact.html"
+                                    role="button">Contact</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="btn btn-outline-secondary container-fluid" href="./stats.html"
+                                    role="button">Stats</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <div id="carouselExampleDark" class="bg-dark-subtle carousel carousel-dark slide">
+            <div class="carousel-inner">
+                <div class="carousel-item p-4">
+                    <h2 class="text-center text-dark d-block w-100 display-4">Home</h2>
+                </div>
+                <div class="carousel-item p-4">
+                    <h2 class="text-center d-block w-100 text-dark
+        display-4">Upcoming Events</h2>
+                </div>
+                <div class="carousel-item active p-4">
+                    <h2 class="text-center d-block w-100 text-dark
+        display-4">Past Events</h2>
+                </div>
+                <div class="carousel-item p-4">
+                    <h2 class="text-center d-block w-100 text-dark
+        display-4">Contact</h2>
+                </div>
+                <div class="carousel-item p-4">
+                    <h2 class="text-center d-block w-100 text-dark
+        display-4">Stats</h2>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <div class="d-flex row justify-content-evenly flex-column-reverse flex-xl-row m-1">
+            <div id="inlineCheckbox">
+            </div>
+            <form class="d-flex" role="search" id="search-form">
+                <input class="form-control me-1" type="search" placeholder="Search" aria-label="Search">
+            </form>
+        </div>
+        
+        <main>
+            <div class="d-flex flex-column justify-content-center">
+                <div class="d-flex flex-wrap justify-content-evenly" id="cardEventsp">
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <nav class="bg-dark-subtle navbar navbar-dark p-4">
+                <div>
+                    <a class="navbar-brand" href="https://www.instagram.com/">
+                        <img src="./assets/img/instagram.svg" alt="Instagram" width="60" height="54">
+                    </a>
+                    <a class="navbar-brand" href="https://es-la.facebook.com/">
+                        <img src="./assets/img/facebook.svg" alt="Facebook" width="60" height="54">
+                    </a>
+                    <a class="navbar-brand" href="https://www.whatsapp.com/?lang=es">
+                        <img src="./assets/img/whatsapp.svg" alt="Whatsapp" width="60" height="54">
+                    </a>
+                </div>
+                <div>
+                    <h2 class="card-text">FE08-TN</h2>
+                </div>
+            </nav>
+        </footer>
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+            crossorigin="anonymous"></script>
+        <script src="./assets/js/data.js"></script>
+        <script src="./assets/js/past-events.js"></script>
+
+    </body>
+
+</html>
