@@ -71,7 +71,7 @@ async function getDataFromApi() {
     document.querySelector("#tbodyT1").innerHTML = templateTabla1;
   }
   tabla1();
-  //Tabla Upcoming
+  //Tabla Upcoming Events
   function tablaUPC() {
     var mapeoCategorias = arrayUpc.map((cat) => cat.category);
     const arrayCategorias = new Set(mapeoCategorias);
@@ -137,7 +137,7 @@ async function getDataFromApi() {
     });
   }
   tablaUPC();
-  //Tabla past
+  //Tabla Past events
   function tablaPAST() {
     var mapeoCategorias = arrayPast.map((cat) => cat.category);
     const arrayCategorias = new Set(mapeoCategorias);
