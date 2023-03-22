@@ -70,3 +70,33 @@ footer {
 .card .contenido{
   padding: 15px;
 }
+
+///
+.cardet {
+  max-width: 50rem;
+}
+
+.cardet .col-md-4 {
+  display: flex;
+  align-items: center;
+}
+
+.cardet .col-md-4 img {
+  height: 26rem;
+  object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .cardet {
+    max-width: 100%;
+  }
+
+  .cardet .col-md-4 {
+    flex: 0 0 40%;
+    max-width: 40%;
+  }
+
+  .cardet .col-md-4 img {
+    height: auto;
+  }
+}
