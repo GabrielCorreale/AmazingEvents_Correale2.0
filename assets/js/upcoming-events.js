@@ -19,7 +19,7 @@ async function fetchCards() {
               <ul><li>${event.description}</li></ul>
             </div>
             <div class="d-flex p-2 justify-content-between">
-              <p class="card-text">Price: $ ${event.price}</p>
+            <p class="card-text">Price: ${event.price} U$D</p>
               <a href="./details.html?id=${event._id}" class="btn btn-primary ms-4">Details</a>
             </div>
           </div>`

@@ -23,8 +23,8 @@ function createCard(cardet) {
       <div class="col-md-8">
         <div class="card-body">
           <div class="d-flex flex-column">
-          <h1 class="d-flex justify-content-center mb-5">${cardet.name}</h1>
-            <ul>
+          <h1 class="d-flex mb-5">${cardet.name}</h1>
+            <ul class="d-flex flex-column">
               <li><strong>Date</strong>: ${cardet.date}</li>
               <li><strong>Description</strong>: ${cardet.description}</li>
               <li><strong>Category</strong>: ${cardet.category}</li>
